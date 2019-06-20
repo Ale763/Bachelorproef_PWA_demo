@@ -1,0 +1,244 @@
+{
+    "products": [
+        {
+            "id": 1803,
+            "sku": "WT09-XS-Purple",
+            "name": "Breathe-Easy Tank-XS-Purple",
+            "category": "Women-Tops",
+            "price": {
+                "default": 34
+            },
+            "media": [
+                "/w/t/wt09-purple_main_1.jpg"
+            ]
+        },
+        {
+            "id": 1788,
+            "sku": "WT08-XS-Purple",
+            "name": "Antonia Racer Tank-XS-Purple",
+            "category": "Women-Tops",
+            "price": {
+                "default": 34
+            },
+            "media": [
+                "/w/t/wt09-purple_main_1.jpg"
+            ]
+        },
+        {
+            "id": 1771,
+            "sku": "WT07-XS-Green",
+            "name": "Maya Tunic-XS-Green",
+            "category": "Women-Tops",
+            "price": {
+                "default": 29
+            },
+            "media": [
+                "/w/t/wt07-green_main_1.jpg"
+            ]
+        },
+        {
+            "id": 1759,
+            "sku": "WT06-S-Red",
+            "name": "Chloe Compete Tank-S-Red",
+            "category": "Women-Tops",
+            "price": {
+                "default": 39
+            },
+            "media": [
+                "/w/t/wt06-red_main_1.jpg"
+            ]
+        },
+        {
+            "id": 1745,
+            "sku": "WT05-M-Orange",
+            "name": "Leah Yoga Top-M-Orange",
+            "category": "Women-Tops",
+            "price": {
+                "default": 39
+            },
+            "media": [
+                "/w/t/wt05-orange_main_1.jpg"
+            ]
+        },
+        {
+            "id": 1732,
+            "sku": "WT04-L-Blue",
+            "name": "Nona Fitness Tank-L-Blue",
+            "category": "Women-Tops",
+            "price": {
+                "default": 39
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 2031,
+            "sku": "WSH12-28-Green",
+            "name": "Erika Running Short-28-Green",
+            "category": "Women-Bottoms",
+            "price": {
+                "default": 45
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 2026,
+            "sku": "WSH11-28-Red",
+            "name": "Ina Compression Short-28-Red",
+            "category": "Women-Bottoms",
+            "price": {
+                "default": 49
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 2017,
+            "sku": "WSH10-28-Black",
+            "name": "Ana Running Short-28-Black",
+            "category": "Women-Bottoms",
+            "price": {
+                "default": 40
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 2011,
+            "sku": "WSH09-28-Green",
+            "name": "Mimi All-Purpose Short-28-Green",
+            "category": "Women-Bottoms",
+            "price": {
+                "default": 44
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 2004,
+            "sku": "WSH08-28-Purple",
+            "name": "Sybil Running Short-28-Purple",
+            "category": "Women-Bottoms",
+            "price": {
+                "default": 44
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 1997,
+            "sku": "WSH07-28-Black",
+            "name": "Echo Fit Compression Short-28-Blac",
+            "category": "Women-Bottoms",
+            "price": {
+                "default": 24
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 729,
+            "sku": "MT12-XL-Blue",
+            "name": "Cassius Sparring Tank-XL-Blue",
+            "category": "Men-Tops",
+            "price": {
+                "default": 18
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 721,
+            "sku": "MT11-M-Blue",
+            "name": "Atlas Fitness Tank-M-Blue",
+            "category": "Men-Tops",
+            "price": {
+                "default": 18
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 713,
+            "sku": "MT10-XS-Yellow",
+            "name": "Tiberius Gym Tank-XS-Yellow",
+            "category": "Men-Tops",
+            "price": {
+                "default": 18
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 1024,
+            "sku": "MSH12-32-Red",
+            "name": "Pierce Gym Short-32-Red",
+            "category": "Men-Bottoms",
+            "price": {
+                "default": 27
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 1015,
+            "sku": "MSH11-34-Black",
+            "name": "Arcadio Gym Short-34-Black",
+            "category": "Men-Bottoms",
+            "price": {
+                "default": 20
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 1006,
+            "sku": "MSH10-36-Green",
+            "name": "Sol Active Short-36-Green",
+            "category": "Men-Bottoms",
+            "price": {
+                "default": 32
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 2047,
+            "sku": "MA01",
+            "name": "Regular Bel",
+            "category": "Men-Accessories",
+            "price": {
+                "default": 20
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        },
+        {
+            "id": 2048,
+            "sku": "MA02k",
+            "name": "Special Belt",
+            "category": "Men-Accessories",
+            "price": {
+                "default": 30
+            },
+            "media": [
+                "/w/t/wt04-blue_main_1.jpg"
+            ]
+        }
+    ]
+}

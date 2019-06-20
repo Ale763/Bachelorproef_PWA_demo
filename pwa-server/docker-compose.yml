@@ -1,0 +1,36 @@
+version: "3.5"
+
+services:
+  nginx:
+    build: ./nginx
+    restart: always
+    ports:
+      - "9080:80"
+      - "9443:443"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+    depends_on:
+      - redis
+      - django
+    # command: "/bin/sh -c 'while :; do sleep 12h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+
+  redis:
+    image: redis:latest
+    volumes:
+      - ./redis:/data
+    ports:
+      - 6379:6379
+
+  django:
+    restart: always
+    build: ./django/
+    ports:
+      - 9999:8000
+    depends_on:
+      - redis
+    volumes:
+      - ./django/pwa:/data/
+    # command: python3 manage.py runserver 0.0.0.0:8000
+    # TEMP COMMENT!
+    command: /usr/bin/gunicorn pwa.wsgi:application -w 1 -b :8000 
+

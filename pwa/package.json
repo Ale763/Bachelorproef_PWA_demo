@@ -1,0 +1,56 @@
+{
+  "name": "pwa-3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-pwa": "npm run build && npm run workbox-build-inject",
+    "WBIM": "workbox injectManifest workbox-config.js",
+    "WBIM-dev": "workbox injectManifest workbox-config-dev.js",
+    "pwa-serve": "workbox injectManifest workbox-config-dev.js && npm run serve",
+    "pwa-build": "npm run build && workbox injectManifest workbox-config.js ",
+    "workbox-build-inject": "node workbox-build-inject.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "firebase": "^5.9.2",
+    "localforage": "^1.7.3",
+    "vue": "^2.6.6",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.5.7",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-typescript": "^3.5.0",
+    "@vue/cli-service": "^3.7.0",
+    "lint-staged": "^8.1.0",
+    "node-sass": "^4.12.0",
+    "only-if-changed-webpack-plugin": "0.0.2",
+    "path": "^0.12.7",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "typescript": "^3.2.1",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.5.21",
+    "vuetify-loader": "^1.0.5"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "Women-Tops": {
+        "products": [
+            "WT09-XS-Purple",
+            "WT08",
+            "WT07",
+            "WT06",
+            "WT05",
+            "WT04"
+        ]
+    },
+    "Women-Bottoms": {
+        "products": [
+            "WSH12-28-Green",
+            "WSH11-28-Red",
+            "WSH10-28-Black",
+            "WSH09-28-Green",
+            "WSH08-28-Purple",
+            "WSH07-28-Black"
+        ]
+    },
+    "Men-Tops": {
+        "products": [
+            "MT12",
+            "MT11",
+            "MT10"
+        ]
+    },
+    "Men-Bottoms": {
+        "products": [
+            "MSH12",
+            "MSH11",
+            "MSH10"
+        ]
+    },
+    "Men-Accessories": {
+        "products": [
+            "MA01",
+            "MA02"
+        ]
+    },
+}

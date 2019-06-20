@@ -1,0 +1,8 @@
+Django==2.2.0
+gunicorn==19.3.0
+redis==2.10.6
+django-redis==4.9.0
+pytz==2018.4
+djangorestframework
+markdown
+django-filter

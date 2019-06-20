@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="icon" href="/favicon.ico">
+	<link crossorigin="anonymous" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel="stylesheet">
+	<link crossorigin="anonymous" href="img/GoogleFont.css" rel="stylesheet">
+	<title>pwa-3</title>
+	<script>
+		navigator.serviceWorker.register("/sw-single-client-update.js").then(
+			registration =>
+			{
+				registration.addEventListener("updatefound", () =>
+				{
+
+					registration.installing.addEventListener("statechange", () =>
+					{
+						if (registration.state === 'activated')
+							console.log("DOM ACTIVATED SW")
+					});
+				});
+			},
+			err =>
+			{
+				console.log("SW UPDATE_DEMO FAILED: ", err);
+			}
+		);
+		setTimeout(() =>
+		{
+			console.log("Serve");
+			let img = document.createElement("img");
+			img.src = "/img/horse.png";
+			img.style = "max-width: 100%; height: 250px;";
+			if (document.getElementById("imgElement"))
+			{
+				document.getElementById("imgElement").appendChild(img);
+			}
+		}, 500);
+	</script>
+</head>
+
+<body>
+	<div style="display:block;text-align: center">
+		<img src="/img/horse.png" style="display:block; height: 250px; max-width: 100%; margin: 0 auto">
+		<div id="imgElement" style="display:block; height: 250px; max-width: 100%;"></div>
+	</div>
+	<a onclick="myfetch()">Request</a>
+	<!-- built files will be auto injected -->
+	<script>
+		function myfetch()
+		{
+			let request = new Request("/img/horse.png");
+			request.headers.append("X-X", 1);
+			fetch(request);
+		}
+	</script>
+
+</body>
+
+</html>
