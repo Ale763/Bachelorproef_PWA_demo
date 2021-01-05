@@ -14,7 +14,7 @@
     "workbox-build-inject": "node workbox-build-inject.js"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "firebase": "^5.9.2",
     "localforage": "^1.7.3",
     "vue": "^2.6.6",
