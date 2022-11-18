@@ -27,7 +27,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-typescript": "^3.5.0",
-    "@vue/cli-service": "^3.7.0",
+    "@vue/cli-service": "^5.0.8",
     "lint-staged": "^8.1.0",
     "node-sass": "^4.12.0",
     "only-if-changed-webpack-plugin": "0.0.2",
